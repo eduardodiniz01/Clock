@@ -10,10 +10,10 @@ const hourEl = document.querySelector('.hour')
    const html = document.querySelector('html')  
    if (html.classList.contains('dark')) {  
      html.classList.remove('dark')  
-     e.target.innerHTML = 'Dark mode'  
+     e.target.innerHTML = 'Dark Mode'  
    } else {  
      html.classList.add('dark')  
-     e.target.innerHTML = 'Light mode'  
+     e.target.innerHTML = 'Light Mode'  
    }  
  })  
  function setTime() {  
